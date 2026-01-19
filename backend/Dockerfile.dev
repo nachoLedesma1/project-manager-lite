@@ -1,0 +1,17 @@
+# Imagen con Maven y JDK 21
+FROM maven:3.9.6-eclipse-temurin-21 AS dev
+
+WORKDIR /app
+
+# Copiamos pom.xml y bajamos dependencias primero (cache)
+COPY pom.xml .
+RUN mvn dependency:go-offline
+
+# Copiamos el resto del código
+COPY . .
+
+# Exponemos el puerto de Spring Boot
+EXPOSE 8080
+
+# Arrancamos en modo desarrollo
+CMD ["mvn", "spring-boot:run"]

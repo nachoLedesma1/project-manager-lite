@@ -1,0 +1,15 @@
+/* src/styles/global.css */
+@import "tailwindcss";
+
+/* (opcional) capas si querés */
+@layer base, components, utilities;
+
+/* referencia al plugin herói - ruta relativa desde este css al hero.ts */
+@plugin './hero.ts';
+
+/* hace que tailwind escanee los estilos del paquete @heroui/theme */
+/* ajustá la ruta ../../node_modules/... según tu estructura */
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+/* variante dark helper */
+@custom-variant dark (&:is(.dark *));
