@@ -78,33 +78,61 @@ La forma más rápida de levantar la aplicación es utilizando Docker, que confi
 
 ```bash
 
-git clone \[https://github.com/nachoLedesma1/project-manager-lite.git](https://github.com/nachoLedesma1/project-manager-lite.git)
+git clone https://github.com/nachoLedesma1/project-manager-lite.git
 
 cd project-manager-lite
 
+
+
 ```
 
 
 
-2\. \*\*Levantar los servicios\*\*
+
+
+
+
+\## 2 Levantar los servicios
+
+
 
 ```bash
 
+
+
 docker-compose up --build
+
+
 
 ```
 
 
 
-3\. \*\*Acceder a la aplicación\*\*
 
-&nbsp;  - \*\*Frontend:\*\* Abre tu navegador en \[http://localhost:5173](http://localhost:5173).
 
-&nbsp;  - \*\*Backend API:\*\* Disponible en \[http://localhost:8080](http://localhost:8080).
+
+
+\## 3 Acceder a la aplicación
+
+
+
+\- \*\*Frontend\*\*: Abre tu navegador en http://localhost:5173.
+
+
+
+\- \*\*Backend API:\*\* Disponible enhttp://localhost:8080.
+
+
+
+
 
 
 
 ---
+
+
+
+
 
 
 
@@ -112,41 +140,83 @@ docker-compose up --build
 
 
 
+
+
+
+
 Si deseas ejecutar los servicios individualmente para desarrollo:
+
+
+
+
 
 
 
 \### Backend
 
+
+
 ```bash
+
+
 
 cd backend
 
-\# Ejecutar con Maven Wrapper
+
+
+\\# Ejecutar con Maven Wrapper
+
+
 
 ./mvnw spring-boot:run
 
+
+
 ```
+
+
+
+
 
 
 
 \### Frontend
 
+
+
 ```bash
+
+
 
 cd frontend
 
-\# Instalar dependencias y correr
+
+
+\\# Instalar dependencias y correr
+
+
 
 npm install
 
+
+
 npm run dev
+
+
 
 ```
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -154,19 +224,39 @@ npm run dev
 
 
 
+
+
+
+
 ```text
+
+
 
 project-manager-lite/
 
+
+
 ├── backend/            # Lógica de negocio y API (Spring Boot + Flyway)
+
+
 
 ├── frontend/           # Cliente web (React + TypeScript)
 
+
+
 ├── docker-compose.yml  # Configuración de servicios Docker
+
+
 
 └── .gitignore          # Archivos excluidos
 
+
+
 ```
+
+
+
+
 
 
 
@@ -174,7 +264,15 @@ project-manager-lite/
 
 
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la gestión de estados, agregar nuevas funcionalidades o mejorar la interfaz, no dudes en abrir un \*\*Pull Request\*\* o reportar un \*\*Issue\*\*.
+
+
+
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la gestión de estados, agregar nuevas funcionalidades o mejorar la interfaz, no dudes en abrir un \\\*\\\*Pull Request\\\*\\\* o reportar un \\\*\\\*Issue\\\*\\\*.
+
+
+
+
 
 
 
@@ -182,15 +280,33 @@ project-manager-lite/
 
 
 
+
+
+
+
 \*\*Ignacio Agustín Ledesma\*\*
 
+
+
 \- \*\*GitHub:\*\* \[@nachoLedesma1](https://github.com/nachoLedesma1)
+
+
 
 \- \*\*LinkedIn:\*\* \[Ignacio Ledesma](https://www.linkedin.com/in/ignacio-ledesma2)
 
 
 
+
+
+
+
 ---
 
+
+
 \*Hecho con código y café.\*
+
+
+
+
 
