@@ -1,12 +1,12 @@
-\# 🚀 Project Manager Lite
+# 🚀 Project Manager Lite
 
 
 
-\*\*Project Manager Lite\*\* es una aplicación web de gestión de proyectos diseñada para organizar flujos de trabajo de manera visual y ágil. Inspirada en la metodología Kanban, permite a los equipos y usuarios crear tareas, asignarlas y moverlas a través de diferentes estados de progreso, ofreciendo una visión clara del estado del proyecto en tiempo real.
+**Project Manager Lite** es una aplicación web de gestión de proyectos diseñada para organizar flujos de trabajo de manera visual y ágil. Inspirada en la metodología Kanban, permite a los equipos y usuarios crear tareas, asignarlas y moverlas a través de diferentes estados de progreso, ofreciendo una visión clara del estado del proyecto en tiempo real.
 
 
 
-\## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 
 
@@ -14,27 +14,27 @@ El proyecto está construido con una arquitectura moderna de microservicios, sep
 
 
 
-\### Backend ☕
+### Backend ☕
 
-\- \*\*Java (Spring Boot):\*\* API REST robusta y escalable.
+- **Java (Spring Boot):** API REST robusta y escalable.
 
-\- \*\*Base de Datos:\*\* PostgreSQL.
+- **Base de Datos:** PostgreSQL.
 
-\- \*\*Flyway:\*\* Gestión y versionado de migraciones de base de datos para asegurar la integridad del esquema.
-
-
-
-\### Frontend ⚛️
-
-\- \*\*React (TypeScript):\*\* Interfaz de usuario dinámica, tipada y reactiva.
-
-\- \*\*Estilos:\*\* Diseño limpio y responsivo.
+- **Flyway:** Gestión y versionado de migraciones de base de datos para asegurar la integridad del esquema.
 
 
 
-\### DevOps \& Infraestructura 🐳
+### Frontend ⚛️
 
-\- \*\*Docker \& Docker Compose:\*\* Orquestación de contenedores para un despliegue rápido y consistente en cualquier entorno.
+- **React (TypeScript):** Interfaz de usuario dinámica, tipada y reactiva.
+
+- **Estilos:** Diseño limpio y responsivo.
+
+
+
+### DevOps & Infraestructura 🐳
+
+- **Docker & Docker Compose:** Orquestación de contenedores para un despliegue rápido y consistente en cualquier entorno.
 
 
 
@@ -42,23 +42,23 @@ El proyecto está construido con una arquitectura moderna de microservicios, sep
 
 
 
-\## 📋 Prerrequisitos
+## 📋 Prerrequisitos
 
 
 
 Para ejecutar este proyecto localmente, necesitas tener instalado:
 
-\- \[Docker](https://www.docker.com/) y \*\*Docker Compose\*\*.
+- [Docker](https://www.docker.com/) y **Docker Compose**.
 
-\- \[Git](https://git-scm.com/).
+- [Git](https://git-scm.com/).
 
 
 
-\*(Opcional para ejecución manual sin contenedores)\*:
+*(Opcional para ejecución manual sin contenedores)*:
 
-\- Java JDK 17+.
+- Java JDK 17+.
 
-\- Node.js 18+.
+- Node.js 18+.
 
 
 
@@ -66,7 +66,7 @@ Para ejecutar este proyecto localmente, necesitas tener instalado:
 
 
 
-\## 🚀 Instalación y Ejecución (Recomendado)
+## 🚀 Instalación y Ejecución (Recomendado)
 
 
 
@@ -74,7 +74,7 @@ La forma más rápida de levantar la aplicación es utilizando Docker, que confi
 
 
 
-1\. \*\*Clonar el repositorio\*\*
+1. **Clonar el repositorio**
 
 ```bash
 
@@ -92,7 +92,7 @@ cd project-manager-lite
 
 
 
-\## 2 Levantar los servicios
+## 2 Levantar los servicios
 
 
 
@@ -112,15 +112,15 @@ docker-compose up --build
 
 
 
-\## 3 Acceder a la aplicación
+## 3 Acceder a la aplicación
 
 
 
-\- \*\*Frontend\*\*: Abre tu navegador en http://localhost:5173.
+- **Frontend**: Abre tu navegador en http://localhost:5173.
 
 
 
-\- \*\*Backend API:\*\* Disponible enhttp://localhost:8080.
+- **Backend API:** Disponible enhttp://localhost:8080.
 
 
 
@@ -136,7 +136,7 @@ docker-compose up --build
 
 
 
-\## 🔧 Ejecución Manual (Entorno de Desarrollo)
+## 🔧 Ejecución Manual (Entorno de Desarrollo)
 
 
 
@@ -152,7 +152,7 @@ Si deseas ejecutar los servicios individualmente para desarrollo:
 
 
 
-\### Backend
+### Backend
 
 
 
@@ -164,7 +164,7 @@ cd backend
 
 
 
-\\# Ejecutar con Maven Wrapper
+# Ejecutar con Maven Wrapper
 
 
 
@@ -180,7 +180,7 @@ cd backend
 
 
 
-\### Frontend
+### Frontend
 
 
 
@@ -192,7 +192,7 @@ cd frontend
 
 
 
-\\# Instalar dependencias y correr
+# Instalar dependencias y correr
 
 
 
@@ -220,7 +220,7 @@ npm run dev
 
 
 
-\## 📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 
 
@@ -260,7 +260,7 @@ project-manager-lite/
 
 
 
-\## 🤝 Contribuciones
+## 🤝 Contribuciones
 
 
 
@@ -268,7 +268,7 @@ project-manager-lite/
 
 
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la gestión de estados, agregar nuevas funcionalidades o mejorar la interfaz, no dudes en abrir un \\\*\\\*Pull Request\\\*\\\* o reportar un \\\*\\\*Issue\\\*\\\*.
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la gestión de estados, agregar nuevas funcionalidades o mejorar la interfaz, no dudes en abrir un **Pull Request** o reportar un **Issue**.
 
 
 
@@ -276,7 +276,7 @@ project-manager-lite/
 
 
 
-\## 👤 Autor
+## 👤 Autor
 
 
 
@@ -284,15 +284,15 @@ project-manager-lite/
 
 
 
-\*\*Ignacio Agustín Ledesma\*\*
+**Ignacio Agustín Ledesma**
 
 
 
-\- \*\*GitHub:\*\* \[@nachoLedesma1](https://github.com/nachoLedesma1)
+- **GitHub:** [@nachoLedesma1](https://github.com/nachoLedesma1)
 
 
 
-\- \*\*LinkedIn:\*\* \[Ignacio Ledesma](https://www.linkedin.com/in/ignacio-ledesma2)
+- **LinkedIn:** [Ignacio Ledesma](https://www.linkedin.com/in/ignacio-ledesma2)
 
 
 
@@ -304,7 +304,7 @@ project-manager-lite/
 
 
 
-\*Hecho con código y café.\*
+*Hecho con código y café.*
 
 
 
